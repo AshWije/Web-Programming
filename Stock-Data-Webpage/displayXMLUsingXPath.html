@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Using Firefox -->
+    <title>Display XML Information using XPath</title>
+	<meta charset="utf-8"/>
+  </head>
+  <body>
+    <h3>List Ticker Symbol and Cost of all the stocks for the same
+company/organization:</h3>
+    <div id="i">
+    </div>
+    <br/><br/>
+    
+    <h3>Total cost of all stocks for the same company/organization:</h3>
+    <div id="ii">
+    </div>
+    <br/><br/>
+    
+    <h3>List Ticker Symbol, Cost, and Organization Name of all the stocks
+from a particular country:</h3>
+    <div id="iii">
+    </div>
+    <br/><br/>
+    
+    <h3>List Ticker Symbol, Cost, and Organization Name of all the stocks
+from a company with more than 100 employees:</h3>
+    <div id="iv">
+    </div>
+    
+    <script>
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var xmlDoc = this.responseXML;
+      
+          var companyNames = XPathArray("//company/name", xmlDoc, true);
+          var companyCountries = XPathArray("//company/country", xmlDoc, true);
+
+          var path1, path2, path3, totalCost;
+		  var divIHTML = "";
+		  var divIIHTML = "";
+		  var divIIIHTML = "";
+		  var divIVHTML = "";
+		  
+          for (var i = 0; i < companyNames.length; i++) {
+            //List Ticker Symbol and Cost of all the stocks for the same company/organization
+            divIHTML += "<p>COMPANY=" + companyNames[i] + ":</p><ul>";
+            path1 = XPathArray("//company[name=\"" + companyNames[i] + "\"]/../tickerSymbol | //company[name=\"" + companyNames[i] + "\"]/../price", xmlDoc, false);
+            for (var j = 0; j < path1.length; j=j+2)
+              divIHTML += "<li>Ticker Symbol: " + path1[j].childNodes[0].nodeValue + " ; Price: " + path1[j+1].childNodes[0].nodeValue + " (" + path1[j+1].getAttribute("currencyType") + ")</li>";
+			
+            //Total cost of all stocks for the same company/organization
+            path2 = XPathArray("//company[name=\"" + companyNames[i] + "\"]/../price", xmlDoc, false);
+            totalCost = 0;
+			for (var j = 0; j < path2.length; j++)
+				totalCost += parseFloat(path2[j].childNodes[0].nodeValue);
+
+            divIHTML += "</ul>";
+            divIIHTML += "<p>Total cost for " + companyNames[i] + " is: " + totalCost.toFixed(2) + " (" + path2[0].getAttribute("currencyType") + ")</p>";
+          }
+      
+          // List Ticker Symbol, Cost, and Organization Name of all the stocks from a particular country
+          for(i = 0 ; i < companyCountries.length; i++) {
+            divIIIHTML += "<p>COUNTRY=" + companyCountries[i] + ":</p><ul>";
+
+            path3 = XPathArray("//company[country=\"" + companyCountries[i] + "\"]/../tickerSymbol | //company[country=\"" + companyCountries[i] + "\"]/../price | //company[country=\"" + companyCountries[i] + "\"]/name", xmlDoc, false);
+
+            for (var j = 0; j < path3.length; j=j+3)
+              divIIIHTML += "<li>Ticker Symbol: " + path3[j].childNodes[0].nodeValue + " ; Price: " + path3[j+1].childNodes[0].nodeValue + " (" + path3[j+1].getAttribute("currencyType") + ") ; Company: " + path3[j+2].childNodes[0].nodeValue + "</li>";
+
+            divIIIHTML += "</ul>";
+          }
+
+          // List Ticker Symbol, Cost, and Organization Name of all the stocks from a company with more than 100 employees
+          var path4 = XPathArray("//company[totalEmployees > 100]/../tickerSymbol | //company[totalEmployees > 100]/../price | //company[totalEmployees > 100]/name", xmlDoc, false);
+
+          divIVHTML += "<ul>";
+          for (var j = 0; j < path4.length; j=j+3)
+            divIVHTML += "<li>Ticker Symbol: " + path4[j].childNodes[0].nodeValue + " ;\t\tPrice: " + path4[j+1].childNodes[0].nodeValue + " (" + path4[j+1].getAttribute("currencyType") + ") ; Company: " + path4[j+2].childNodes[0].nodeValue + "</li>";
+
+          divIVHTML += "</ul>";
+		  
+          var divI = document.getElementById("i");
+          var divII = document.getElementById("ii");
+          var divIII = document.getElementById("iii");
+          var divIV = document.getElementById("iv");
+		  divI.innerHTML = divIHTML;
+		  divII.innerHTML = divIIHTML;
+		  divIII.innerHTML = divIIIHTML;
+		  divIV.innerHTML = divIVHTML;
+        }
+      };
+      xhttp.open("GET", "stockXML.xml", true);
+      xhttp.send();
+      
+      // Evaluate an XPath expression and return an array of results; if uniq is True, returns an array with no duplicate values
+      function XPathArray(expr, xmlDoc, uniq) {
+        nodes = xmlDoc.evaluate(expr, xmlDoc, null, XPathResult.ANY_TYPE, null);
+        var results = [];
+        var x;
+
+        if (uniq) {
+          while (x = nodes.iterateNext())
+            if (!results.includes(x.textContent))
+              results.push(x.textContent);
+        }
+        else {
+          while (x = nodes.iterateNext())
+            results.push(x);
+        }
+        
+        return results;
+      }
+    </script>
+  </body>
+</html>

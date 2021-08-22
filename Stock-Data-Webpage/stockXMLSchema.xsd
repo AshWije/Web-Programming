@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="allStocks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="stock" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="tickerSymbol">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z][A-Z][A-Z]" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+              <xs:element name="releaseDate" type="xs:date" />
+
+              <xs:element name="price">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:decimal">
+                      <xs:attribute name="currencyType" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="company" type="organization" />
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="organization">
+    <xs:sequence>
+
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][A-Za-z0-9]*( [A-Z][A-Za-z0-9]*)*" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="totalEmployees">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="country">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]+" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

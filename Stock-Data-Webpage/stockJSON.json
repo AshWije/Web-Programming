@@ -1,0 +1,1106 @@
+{
+  "allStocks": {
+    "stock": [
+
+      {
+        "tickerSymbol": "AFB",
+        "releaseDate": "1966-12-18",
+        "price": [{"currencyType": "NGN", "value": "45.78"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "FGU",
+        "releaseDate": "1967-04-06",
+        "price": [{"currencyType": "MRO", "value": "35.88"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "HXC",
+        "releaseDate": "1882-06-30",
+        "price": [{"currencyType": "NGN", "value": "45.80"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "XIW",
+        "releaseDate": "1843-09-09",
+        "price": [{"currencyType": "JPY", "value": "54.99"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "CCI",
+        "releaseDate": "1986-08-11",
+        "price": [{"currencyType": "CUP", "value": "88.38"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "OAM",
+        "releaseDate": "1991-04-12",
+        "price": [{"currencyType": "CUP", "value": "48.52"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "THF",
+        "releaseDate": "2015-06-05",
+        "price": [{"currencyType": "ZWL", "value": "4.03"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "XOA",
+        "releaseDate": "1905-02-21",
+        "price": [{"currencyType": "NGN", "value": "42.40"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "IDH",
+        "releaseDate": "1965-04-04",
+        "price": [{"currencyType": "JPY", "value": "11.69"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "DZT",
+        "releaseDate": "1893-04-28",
+        "price": [{"currencyType": "ZWL", "value": "44.40"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "YKT",
+        "releaseDate": "1961-08-16",
+        "price": [{"currencyType": "JPY", "value": "66.73"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "UOZ",
+        "releaseDate": "1980-12-04",
+        "price": [{"currencyType": "UZS", "value": "95.43"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "DPS",
+        "releaseDate": "1918-08-06",
+        "price": [{"currencyType": "UZS", "value": "33.70"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "KNO",
+        "releaseDate": "1812-02-17",
+        "price": [{"currencyType": "AED", "value": "4.01"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "XBE",
+        "releaseDate": "1974-11-05",
+        "price": [{"currencyType": "BGN", "value": "10.13"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "ZFF",
+        "releaseDate": "1890-06-05",
+        "price": [{"currencyType": "NZD", "value": "35.30"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "DQZ",
+        "releaseDate": "1972-07-29",
+        "price": [{"currencyType": "ZWL", "value": "25.06"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "RBJ",
+        "releaseDate": "1890-05-17",
+        "price": [{"currencyType": "CUP", "value": "71.95"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "QCE",
+        "releaseDate": "1928-01-29",
+        "price": [{"currencyType": "UZS", "value": "42.37"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "DGZ",
+        "releaseDate": "2010-04-25",
+        "price": [{"currencyType": "CUP", "value": "78.20"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "MET",
+        "releaseDate": "1839-09-28",
+        "price": [{"currencyType": "UZS", "value": "47.32"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "LYN",
+        "releaseDate": "1937-02-11",
+        "price": [{"currencyType": "CUP", "value": "13.30"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "EQJ",
+        "releaseDate": "1945-02-07",
+        "price": [{"currencyType": "JPY", "value": "49.65"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "DUL",
+        "releaseDate": "1879-07-23",
+        "price": [{"currencyType": "MRO", "value": "14.65"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "RRN",
+        "releaseDate": "1971-10-02",
+        "price": [{"currencyType": "BSD", "value": "58.36"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "WPA",
+        "releaseDate": "1983-07-05",
+        "price": [{"currencyType": "MRO", "value": "45.85"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "HYB",
+        "releaseDate": "1843-10-26",
+        "price": [{"currencyType": "MRO", "value": "13.28"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "YNY",
+        "releaseDate": "1982-01-12",
+        "price": [{"currencyType": "JPY", "value": "75.56"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "NSM",
+        "releaseDate": "1827-01-22",
+        "price": [{"currencyType": "MRO", "value": "1.74"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "ULM",
+        "releaseDate": "1815-06-16",
+        "price": [{"currencyType": "BGN", "value": "81.40"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "SPA",
+        "releaseDate": "1806-07-18",
+        "price": [{"currencyType": "JPY", "value": "32.26"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "NLJ",
+        "releaseDate": "1992-03-12",
+        "price": [{"currencyType": "MRO", "value": "9.27"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "BRH",
+        "releaseDate": "1855-05-20",
+        "price": [{"currencyType": "ZWL", "value": "28.23"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "VQB",
+        "releaseDate": "1947-02-17",
+        "price": [{"currencyType": "CUP", "value": "87.96"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "URQ",
+        "releaseDate": "1871-04-07",
+        "price": [{"currencyType": "CUP", "value": "80.65"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "XFW",
+        "releaseDate": "1846-09-21",
+        "price": [{"currencyType": "UZS", "value": "78.14"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "KIL",
+        "releaseDate": "1958-03-08",
+        "price": [{"currencyType": "UZS", "value": "93.34"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "ZLU",
+        "releaseDate": "1805-04-27",
+        "price": [{"currencyType": "NGN", "value": "35.56"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "PLG",
+        "releaseDate": "1955-06-11",
+        "price": [{"currencyType": "UZS", "value": "97.22"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "EDP",
+        "releaseDate": "2017-06-05",
+        "price": [{"currencyType": "ZWL", "value": "83.78"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "FQC",
+        "releaseDate": "1822-01-15",
+        "price": [{"currencyType": "JPY", "value": "21.46"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "RSR",
+        "releaseDate": "1837-10-02",
+        "price": [{"currencyType": "CUP", "value": "57.32"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "UBW",
+        "releaseDate": "1971-07-03",
+        "price": [{"currencyType": "CUP", "value": "36.00"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "OAT",
+        "releaseDate": "2000-12-20",
+        "price": [{"currencyType": "BGN", "value": "16.51"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "EAU",
+        "releaseDate": "1853-01-29",
+        "price": [{"currencyType": "CUP", "value": "30.78"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "ZGJ",
+        "releaseDate": "1948-11-04",
+        "price": [{"currencyType": "NZD", "value": "94.02"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "ZPF",
+        "releaseDate": "1924-10-26",
+        "price": [{"currencyType": "JPY", "value": "10.39"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "TBB",
+        "releaseDate": "1808-07-01",
+        "price": [{"currencyType": "ZWL", "value": "66.73"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "XAH",
+        "releaseDate": "2013-03-12",
+        "price": [{"currencyType": "NZD", "value": "20.76"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "NJD",
+        "releaseDate": "1951-09-21",
+        "price": [{"currencyType": "AED", "value": "20.92"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "SUW",
+        "releaseDate": "1959-07-05",
+        "price": [{"currencyType": "CUP", "value": "95.49"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "GSZ",
+        "releaseDate": "1912-03-30",
+        "price": [{"currencyType": "AED", "value": "37.09"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "VCA",
+        "releaseDate": "1907-10-20",
+        "price": [{"currencyType": "JPY", "value": "90.33"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "STJ",
+        "releaseDate": "1884-06-20",
+        "price": [{"currencyType": "JPY", "value": "31.31"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "ISN",
+        "releaseDate": "1866-01-08",
+        "price": [{"currencyType": "BSD", "value": "22.40"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "SKM",
+        "releaseDate": "1895-05-02",
+        "price": [{"currencyType": "BGN", "value": "88.53"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "DGT",
+        "releaseDate": "1933-03-02",
+        "price": [{"currencyType": "ZWL", "value": "8.13"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "GAK",
+        "releaseDate": "1816-03-26",
+        "price": [{"currencyType": "NZD", "value": "76.47"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "XNY",
+        "releaseDate": "1898-02-06",
+        "price": [{"currencyType": "NZD", "value": "91.42"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "NDX",
+        "releaseDate": "1822-09-24",
+        "price": [{"currencyType": "JPY", "value": "93.15"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "KFC",
+        "releaseDate": "1808-08-18",
+        "price": [{"currencyType": "NGN", "value": "64.90"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "RTJ",
+        "releaseDate": "1871-11-05",
+        "price": [{"currencyType": "BSD", "value": "14.14"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "YCS",
+        "releaseDate": "1894-08-29",
+        "price": [{"currencyType": "UZS", "value": "51.81"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "OYX",
+        "releaseDate": "1928-10-23",
+        "price": [{"currencyType": "UZS", "value": "8.72"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "USL",
+        "releaseDate": "1955-06-06",
+        "price": [{"currencyType": "NGN", "value": "99.45"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "TPF",
+        "releaseDate": "1908-08-30",
+        "price": [{"currencyType": "ZWL", "value": "69.68"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "SRO",
+        "releaseDate": "1839-03-30",
+        "price": [{"currencyType": "BGN", "value": "91.99"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "KOL",
+        "releaseDate": "1855-04-04",
+        "price": [{"currencyType": "NZD", "value": "11.62"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "OPN",
+        "releaseDate": "1913-02-05",
+        "price": [{"currencyType": "AED", "value": "79.65"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "QZM",
+        "releaseDate": "1929-08-31",
+        "price": [{"currencyType": "NZD", "value": "5.54"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "OBE",
+        "releaseDate": "1950-08-12",
+        "price": [{"currencyType": "BGN", "value": "45.22"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "MHD",
+        "releaseDate": "1941-04-02",
+        "price": [{"currencyType": "ZWL", "value": "21.55"}],
+        "company": {
+          "name": "Company N5",
+          "totalEmployees": "127",
+          "country": "AO"
+        }
+      },
+
+      {
+        "tickerSymbol": "YPA",
+        "releaseDate": "1853-07-20",
+        "price": [{"currencyType": "AED", "value": "16.73"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "HTO",
+        "releaseDate": "1929-01-08",
+        "price": [{"currencyType": "UZS", "value": "21.25"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "INY",
+        "releaseDate": "1937-03-13",
+        "price": [{"currencyType": "NZD", "value": "35.35"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "RJJ",
+        "releaseDate": "1884-11-10",
+        "price": [{"currencyType": "MRO", "value": "44.86"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "TXJ",
+        "releaseDate": "1863-09-20",
+        "price": [{"currencyType": "BSD", "value": "16.51"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "UDW",
+        "releaseDate": "1866-05-18",
+        "price": [{"currencyType": "JPY", "value": "26.56"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "ZXP",
+        "releaseDate": "2008-06-22",
+        "price": [{"currencyType": "NZD", "value": "25.63"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "SJW",
+        "releaseDate": "1876-12-14",
+        "price": [{"currencyType": "JPY", "value": "88.25"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "EAQ",
+        "releaseDate": "1813-08-06",
+        "price": [{"currencyType": "NGN", "value": "68.03"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "AKA",
+        "releaseDate": "1962-06-09",
+        "price": [{"currencyType": "MRO", "value": "10.66"}],
+        "company": {
+          "name": "Company N9",
+          "totalEmployees": "80",
+          "country": "BQ"
+        }
+      },
+
+      {
+        "tickerSymbol": "BPX",
+        "releaseDate": "1902-03-16",
+        "price": [{"currencyType": "BGN", "value": "59.46"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "LDT",
+        "releaseDate": "1940-09-24",
+        "price": [{"currencyType": "BSD", "value": "84.60"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "FUW",
+        "releaseDate": "1865-07-09",
+        "price": [{"currencyType": "NZD", "value": "59.05"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      },
+
+      {
+        "tickerSymbol": "XSR",
+        "releaseDate": "1966-07-01",
+        "price": [{"currencyType": "BSD", "value": "20.78"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "NSA",
+        "releaseDate": "1957-09-23",
+        "price": [{"currencyType": "NGN", "value": "69.70"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "OZB",
+        "releaseDate": "1842-01-31",
+        "price": [{"currencyType": "UZS", "value": "89.18"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "FBX",
+        "releaseDate": "1821-09-04",
+        "price": [{"currencyType": "UZS", "value": "80.91"}],
+        "company": {
+          "name": "Company N8",
+          "totalEmployees": "127",
+          "country": "AN"
+        }
+      },
+
+      {
+        "tickerSymbol": "CAF",
+        "releaseDate": "1992-12-29",
+        "price": [{"currencyType": "BSD", "value": "8.54"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "INK",
+        "releaseDate": "2003-11-14",
+        "price": [{"currencyType": "BSD", "value": "25.40"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "EEV",
+        "releaseDate": "1838-12-03",
+        "price": [{"currencyType": "AED", "value": "12.84"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "BYP",
+        "releaseDate": "1809-06-21",
+        "price": [{"currencyType": "BSD", "value": "1.46"}],
+        "company": {
+          "name": "Company N3",
+          "totalEmployees": "167",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "KDT",
+        "releaseDate": "1846-05-26",
+        "price": [{"currencyType": "JPY", "value": "85.45"}],
+        "company": {
+          "name": "Company N7",
+          "totalEmployees": "17",
+          "country": "CK"
+        }
+      },
+
+      {
+        "tickerSymbol": "LKK",
+        "releaseDate": "1850-11-04",
+        "price": [{"currencyType": "AED", "value": "2.64"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "LOC",
+        "releaseDate": "1930-12-19",
+        "price": [{"currencyType": "BGN", "value": "47.76"}],
+        "company": {
+          "name": "Company N6",
+          "totalEmployees": "51",
+          "country": "SX"
+        }
+      },
+
+      {
+        "tickerSymbol": "CIZ",
+        "releaseDate": "2011-10-31",
+        "price": [{"currencyType": "CUP", "value": "48.23"}],
+        "company": {
+          "name": "Company N2",
+          "totalEmployees": "149",
+          "country": "PM"
+        }
+      },
+
+      {
+        "tickerSymbol": "YGG",
+        "releaseDate": "2011-04-09",
+        "price": [{"currencyType": "AED", "value": "5.02"}],
+        "company": {
+          "name": "Company N1",
+          "totalEmployees": "32",
+          "country": "PH"
+        }
+      },
+
+      {
+        "tickerSymbol": "FVV",
+        "releaseDate": "1961-12-23",
+        "price": [{"currencyType": "NGN", "value": "80.08"}],
+        "company": {
+          "name": "Company N4",
+          "totalEmployees": "15",
+          "country": "BT"
+        }
+      },
+
+      {
+        "tickerSymbol": "FGD",
+        "releaseDate": "1997-05-13",
+        "price": [{"currencyType": "NZD", "value": "56.35"}],
+        "company": {
+          "name": "Company N10",
+          "totalEmployees": "143",
+          "country": "BA"
+        }
+      }
+    ]
+  }
+}

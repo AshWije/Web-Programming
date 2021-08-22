@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Using Firefox -->
+    <title>Display XML</title>
+	<meta charset="utf-8"/>
+    <!-- External style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <table id="t">
+      <tr>
+        <th>Ticker Symbol</th>
+        <th>Release Date</th>
+        <th>Price</th>
+        <th>Company's Name</th>
+        <th>Company's Total Number of Employees </th>
+        <th>Company's Country</th>
+      </tr>
+    </table>
+    <script>
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var xmlDoc = this.responseXML;
+          var stocks = xmlDoc.getElementsByTagName("stock");
+          var table = document.getElementById("t");
+          for (var i = 0; i < stocks.length; i++) {
+            table.innerHTML += "<tr>\
+              <td>" + stocks[i].childNodes[1].textContent + "</td>\
+              <td>" + stocks[i].childNodes[3].textContent + "</td>\
+              <td>" + stocks[i].childNodes[5].textContent + " (" + stocks[i].childNodes[5].getAttribute("currencyType") + ")</td>\
+              <td>" + stocks[i].childNodes[7].childNodes[1].textContent + "</td>\
+              <td>" + stocks[i].childNodes[7].childNodes[3].textContent + "</td>\
+              <td>" + stocks[i].childNodes[7].childNodes[5].textContent + "</td>\
+            </tr>";
+          }
+        }
+      };
+      xhttp.open("GET", "stockXML.xml", true);
+      xhttp.send();
+    </script>
+  </body>
+</html>

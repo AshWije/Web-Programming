@@ -1,0 +1,44 @@
+#t2
+{
+    margin: 0px auto;
+    width: 230px;
+}
+
+#t3
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    border: 1px dashed black;
+}
+
+#t4
+{
+    border-collapse: separate;
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 410px;
+}
+
+.solid
+{
+    border: 1px solid black;
+}
+
+.examples
+{
+    height: 100px;
+    border: 1px solid black;
+}
+
+table, td, th
+{
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+
+table
+{
+    border-collapse: collapse;
+}

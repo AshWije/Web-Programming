@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<allStocks xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="stockXMLSchema.xsd">
+
+  <stock>
+    <tickerSymbol>AFB</tickerSymbol>
+    <releaseDate>1966-12-18</releaseDate>
+    <price currencyType="NGN">45.78</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>FGU</tickerSymbol>
+    <releaseDate>1967-04-06</releaseDate>
+    <price currencyType="MRO">35.88</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>HXC</tickerSymbol>
+    <releaseDate>1882-06-30</releaseDate>
+    <price currencyType="NGN">45.80</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>XIW</tickerSymbol>
+    <releaseDate>1843-09-09</releaseDate>
+    <price currencyType="JPY">54.99</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>CCI</tickerSymbol>
+    <releaseDate>1986-08-11</releaseDate>
+    <price currencyType="CUP">88.38</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>OAM</tickerSymbol>
+    <releaseDate>1991-04-12</releaseDate>
+    <price currencyType="CUP">48.52</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>THF</tickerSymbol>
+    <releaseDate>2015-06-05</releaseDate>
+    <price currencyType="ZWL">4.03</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>XOA</tickerSymbol>
+    <releaseDate>1905-02-21</releaseDate>
+    <price currencyType="NGN">42.40</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>IDH</tickerSymbol>
+    <releaseDate>1965-04-04</releaseDate>
+    <price currencyType="JPY">11.69</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>DZT</tickerSymbol>
+    <releaseDate>1893-04-28</releaseDate>
+    <price currencyType="ZWL">44.40</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>YKT</tickerSymbol>
+    <releaseDate>1961-08-16</releaseDate>
+    <price currencyType="JPY">66.73</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>UOZ</tickerSymbol>
+    <releaseDate>1980-12-04</releaseDate>
+    <price currencyType="UZS">95.43</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>DPS</tickerSymbol>
+    <releaseDate>1918-08-06</releaseDate>
+    <price currencyType="UZS">33.70</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>KNO</tickerSymbol>
+    <releaseDate>1812-02-17</releaseDate>
+    <price currencyType="AED">4.01</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>XBE</tickerSymbol>
+    <releaseDate>1974-11-05</releaseDate>
+    <price currencyType="BGN">10.13</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>ZFF</tickerSymbol>
+    <releaseDate>1890-06-05</releaseDate>
+    <price currencyType="NZD">35.30</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>DQZ</tickerSymbol>
+    <releaseDate>1972-07-29</releaseDate>
+    <price currencyType="ZWL">25.06</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>RBJ</tickerSymbol>
+    <releaseDate>1890-05-17</releaseDate>
+    <price currencyType="CUP">71.95</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>QCE</tickerSymbol>
+    <releaseDate>1928-01-29</releaseDate>
+    <price currencyType="UZS">42.37</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>DGZ</tickerSymbol>
+    <releaseDate>2010-04-25</releaseDate>
+    <price currencyType="CUP">78.20</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>MET</tickerSymbol>
+    <releaseDate>1839-09-28</releaseDate>
+    <price currencyType="UZS">47.32</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>LYN</tickerSymbol>
+    <releaseDate>1937-02-11</releaseDate>
+    <price currencyType="CUP">13.30</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>EQJ</tickerSymbol>
+    <releaseDate>1945-02-07</releaseDate>
+    <price currencyType="JPY">49.65</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>DUL</tickerSymbol>
+    <releaseDate>1879-07-23</releaseDate>
+    <price currencyType="MRO">14.65</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>RRN</tickerSymbol>
+    <releaseDate>1971-10-02</releaseDate>
+    <price currencyType="BSD">58.36</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>WPA</tickerSymbol>
+    <releaseDate>1983-07-05</releaseDate>
+    <price currencyType="MRO">45.85</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>HYB</tickerSymbol>
+    <releaseDate>1843-10-26</releaseDate>
+    <price currencyType="MRO">13.28</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>YNY</tickerSymbol>
+    <releaseDate>1982-01-12</releaseDate>
+    <price currencyType="JPY">75.56</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>NSM</tickerSymbol>
+    <releaseDate>1827-01-22</releaseDate>
+    <price currencyType="MRO">1.74</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>ULM</tickerSymbol>
+    <releaseDate>1815-06-16</releaseDate>
+    <price currencyType="BGN">81.40</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>SPA</tickerSymbol>
+    <releaseDate>1806-07-18</releaseDate>
+    <price currencyType="JPY">32.26</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>NLJ</tickerSymbol>
+    <releaseDate>1992-03-12</releaseDate>
+    <price currencyType="MRO">9.27</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>BRH</tickerSymbol>
+    <releaseDate>1855-05-20</releaseDate>
+    <price currencyType="ZWL">28.23</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>VQB</tickerSymbol>
+    <releaseDate>1947-02-17</releaseDate>
+    <price currencyType="CUP">87.96</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>URQ</tickerSymbol>
+    <releaseDate>1871-04-07</releaseDate>
+    <price currencyType="CUP">80.65</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>XFW</tickerSymbol>
+    <releaseDate>1846-09-21</releaseDate>
+    <price currencyType="UZS">78.14</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>KIL</tickerSymbol>
+    <releaseDate>1958-03-08</releaseDate>
+    <price currencyType="UZS">93.34</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>ZLU</tickerSymbol>
+    <releaseDate>1805-04-27</releaseDate>
+    <price currencyType="NGN">35.56</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>PLG</tickerSymbol>
+    <releaseDate>1955-06-11</releaseDate>
+    <price currencyType="UZS">97.22</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>EDP</tickerSymbol>
+    <releaseDate>2017-06-05</releaseDate>
+    <price currencyType="ZWL">83.78</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>FQC</tickerSymbol>
+    <releaseDate>1822-01-15</releaseDate>
+    <price currencyType="JPY">21.46</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>RSR</tickerSymbol>
+    <releaseDate>1837-10-02</releaseDate>
+    <price currencyType="CUP">57.32</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>UBW</tickerSymbol>
+    <releaseDate>1971-07-03</releaseDate>
+    <price currencyType="CUP">36.00</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>OAT</tickerSymbol>
+    <releaseDate>2000-12-20</releaseDate>
+    <price currencyType="BGN">16.51</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>EAU</tickerSymbol>
+    <releaseDate>1853-01-29</releaseDate>
+    <price currencyType="CUP">30.78</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>ZGJ</tickerSymbol>
+    <releaseDate>1948-11-04</releaseDate>
+    <price currencyType="NZD">94.02</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>ZPF</tickerSymbol>
+    <releaseDate>1924-10-26</releaseDate>
+    <price currencyType="JPY">10.39</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>TBB</tickerSymbol>
+    <releaseDate>1808-07-01</releaseDate>
+    <price currencyType="ZWL">66.73</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>XAH</tickerSymbol>
+    <releaseDate>2013-03-12</releaseDate>
+    <price currencyType="NZD">20.76</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>NJD</tickerSymbol>
+    <releaseDate>1951-09-21</releaseDate>
+    <price currencyType="AED">20.92</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>SUW</tickerSymbol>
+    <releaseDate>1959-07-05</releaseDate>
+    <price currencyType="CUP">95.49</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>GSZ</tickerSymbol>
+    <releaseDate>1912-03-30</releaseDate>
+    <price currencyType="AED">37.09</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>VCA</tickerSymbol>
+    <releaseDate>1907-10-20</releaseDate>
+    <price currencyType="JPY">90.33</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>STJ</tickerSymbol>
+    <releaseDate>1884-06-20</releaseDate>
+    <price currencyType="JPY">31.31</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>ISN</tickerSymbol>
+    <releaseDate>1866-01-08</releaseDate>
+    <price currencyType="BSD">22.40</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>SKM</tickerSymbol>
+    <releaseDate>1895-05-02</releaseDate>
+    <price currencyType="BGN">88.53</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>DGT</tickerSymbol>
+    <releaseDate>1933-03-02</releaseDate>
+    <price currencyType="ZWL">8.13</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>GAK</tickerSymbol>
+    <releaseDate>1816-03-26</releaseDate>
+    <price currencyType="NZD">76.47</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>XNY</tickerSymbol>
+    <releaseDate>1898-02-06</releaseDate>
+    <price currencyType="NZD">91.42</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>NDX</tickerSymbol>
+    <releaseDate>1822-09-24</releaseDate>
+    <price currencyType="JPY">93.15</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>KFC</tickerSymbol>
+    <releaseDate>1808-08-18</releaseDate>
+    <price currencyType="NGN">64.90</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>RTJ</tickerSymbol>
+    <releaseDate>1871-11-05</releaseDate>
+    <price currencyType="BSD">14.14</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>YCS</tickerSymbol>
+    <releaseDate>1894-08-29</releaseDate>
+    <price currencyType="UZS">51.81</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>OYX</tickerSymbol>
+    <releaseDate>1928-10-23</releaseDate>
+    <price currencyType="UZS">8.72</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>USL</tickerSymbol>
+    <releaseDate>1955-06-06</releaseDate>
+    <price currencyType="NGN">99.45</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>TPF</tickerSymbol>
+    <releaseDate>1908-08-30</releaseDate>
+    <price currencyType="ZWL">69.68</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>SRO</tickerSymbol>
+    <releaseDate>1839-03-30</releaseDate>
+    <price currencyType="BGN">91.99</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>KOL</tickerSymbol>
+    <releaseDate>1855-04-04</releaseDate>
+    <price currencyType="NZD">11.62</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>OPN</tickerSymbol>
+    <releaseDate>1913-02-05</releaseDate>
+    <price currencyType="AED">79.65</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>QZM</tickerSymbol>
+    <releaseDate>1929-08-31</releaseDate>
+    <price currencyType="NZD">5.54</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>OBE</tickerSymbol>
+    <releaseDate>1950-08-12</releaseDate>
+    <price currencyType="BGN">45.22</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>MHD</tickerSymbol>
+    <releaseDate>1941-04-02</releaseDate>
+    <price currencyType="ZWL">21.55</price>
+    <company>
+      <name>Company N5</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AO</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>YPA</tickerSymbol>
+    <releaseDate>1853-07-20</releaseDate>
+    <price currencyType="AED">16.73</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>HTO</tickerSymbol>
+    <releaseDate>1929-01-08</releaseDate>
+    <price currencyType="UZS">21.25</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>INY</tickerSymbol>
+    <releaseDate>1937-03-13</releaseDate>
+    <price currencyType="NZD">35.35</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>RJJ</tickerSymbol>
+    <releaseDate>1884-11-10</releaseDate>
+    <price currencyType="MRO">44.86</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>TXJ</tickerSymbol>
+    <releaseDate>1863-09-20</releaseDate>
+    <price currencyType="BSD">16.51</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>UDW</tickerSymbol>
+    <releaseDate>1866-05-18</releaseDate>
+    <price currencyType="JPY">26.56</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>ZXP</tickerSymbol>
+    <releaseDate>2008-06-22</releaseDate>
+    <price currencyType="NZD">25.63</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>SJW</tickerSymbol>
+    <releaseDate>1876-12-14</releaseDate>
+    <price currencyType="JPY">88.25</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>EAQ</tickerSymbol>
+    <releaseDate>1813-08-06</releaseDate>
+    <price currencyType="NGN">68.03</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>AKA</tickerSymbol>
+    <releaseDate>1962-06-09</releaseDate>
+    <price currencyType="MRO">10.66</price>
+    <company>
+      <name>Company N9</name>
+      <totalEmployees>80</totalEmployees>
+      <country>BQ</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>BPX</tickerSymbol>
+    <releaseDate>1902-03-16</releaseDate>
+    <price currencyType="BGN">59.46</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>LDT</tickerSymbol>
+    <releaseDate>1940-09-24</releaseDate>
+    <price currencyType="BSD">84.60</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>FUW</tickerSymbol>
+    <releaseDate>1865-07-09</releaseDate>
+    <price currencyType="NZD">59.05</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>XSR</tickerSymbol>
+    <releaseDate>1966-07-01</releaseDate>
+    <price currencyType="BSD">20.78</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>NSA</tickerSymbol>
+    <releaseDate>1957-09-23</releaseDate>
+    <price currencyType="NGN">69.70</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>OZB</tickerSymbol>
+    <releaseDate>1842-01-31</releaseDate>
+    <price currencyType="UZS">89.18</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>FBX</tickerSymbol>
+    <releaseDate>1821-09-04</releaseDate>
+    <price currencyType="UZS">80.91</price>
+    <company>
+      <name>Company N8</name>
+      <totalEmployees>127</totalEmployees>
+      <country>AN</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>CAF</tickerSymbol>
+    <releaseDate>1992-12-29</releaseDate>
+    <price currencyType="BSD">8.54</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>INK</tickerSymbol>
+    <releaseDate>2003-11-14</releaseDate>
+    <price currencyType="BSD">25.40</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>EEV</tickerSymbol>
+    <releaseDate>1838-12-03</releaseDate>
+    <price currencyType="AED">12.84</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>BYP</tickerSymbol>
+    <releaseDate>1809-06-21</releaseDate>
+    <price currencyType="BSD">1.46</price>
+    <company>
+      <name>Company N3</name>
+      <totalEmployees>167</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>KDT</tickerSymbol>
+    <releaseDate>1846-05-26</releaseDate>
+    <price currencyType="JPY">85.45</price>
+    <company>
+      <name>Company N7</name>
+      <totalEmployees>17</totalEmployees>
+      <country>CK</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>LKK</tickerSymbol>
+    <releaseDate>1850-11-04</releaseDate>
+    <price currencyType="AED">2.64</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>LOC</tickerSymbol>
+    <releaseDate>1930-12-19</releaseDate>
+    <price currencyType="BGN">47.76</price>
+    <company>
+      <name>Company N6</name>
+      <totalEmployees>51</totalEmployees>
+      <country>SX</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>CIZ</tickerSymbol>
+    <releaseDate>2011-10-31</releaseDate>
+    <price currencyType="CUP">48.23</price>
+    <company>
+      <name>Company N2</name>
+      <totalEmployees>149</totalEmployees>
+      <country>PM</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>YGG</tickerSymbol>
+    <releaseDate>2011-04-09</releaseDate>
+    <price currencyType="AED">5.02</price>
+    <company>
+      <name>Company N1</name>
+      <totalEmployees>32</totalEmployees>
+      <country>PH</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>FVV</tickerSymbol>
+    <releaseDate>1961-12-23</releaseDate>
+    <price currencyType="NGN">80.08</price>
+    <company>
+      <name>Company N4</name>
+      <totalEmployees>15</totalEmployees>
+      <country>BT</country>
+    </company>
+  </stock>
+
+  <stock>
+    <tickerSymbol>FGD</tickerSymbol>
+    <releaseDate>1997-05-13</releaseDate>
+    <price currencyType="NZD">56.35</price>
+    <company>
+      <name>Company N10</name>
+      <totalEmployees>143</totalEmployees>
+      <country>BA</country>
+    </company>
+  </stock>
+</allStocks>

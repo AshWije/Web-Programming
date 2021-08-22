@@ -1,0 +1,190 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Shopping List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">SHOPPING LIST</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="profile.html">Profile</a>
+            <a class="nav-link" href="orderHistory.html">Order History</a>
+            <a class="nav-link active" href="#">Shopping List</a>
+            <a class="nav-link" href="contactUs.html">Contact Us</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover">Shopping List</h1><br/>
+        <table class="table-bordered">
+          <tr>
+            <th>Item Name</th>
+            <th>Item Quantity</th>
+            <th>Item Required Date (YYYY/MM/DD)</th>
+            <th id="delRowHeader">Delete Row</th>
+          </tr>
+          <tr>
+            <td>Item Name 1</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 2</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 3</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 4</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 5</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 6</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 7</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 8</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 9</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+          <tr>
+            <td>Item Name 10</td>
+            <td>0</td>
+            <td>2019/01/01</td>
+            <td class = "ignore"><a href="#" class="delBtn btn btn-secondary">X</a></td>
+          </tr>
+        </table>
+        <a href="#" id="addBtn" class="btn btn-lg btn-secondary">Add row</a>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var editRowIndex = null;
+        var editColIndex = null;
+        var error = null;
+        // On clicking a cell of any of the first three columns, excluding the headers
+        $("table").on("click", "td[class != \"ignore\"]", function(){
+            
+          // If not editing anything
+          if (editRowIndex == null) {
+            editRowIndex = $(this).parent().index()
+            editColIndex = $(this).index();
+            $(this).attr("contentEditable","true");
+            $(this).css("background-color", "grey");
+          }
+            
+          // If something is being edited and the clicked cell is not the same cell being edited
+          else if (editRowIndex != $(this).parent().index() || editColIndex != $(this).index()){
+            var editTd = $("td[contentEditable=\"true\"]");
+              
+            // Validate the Item Quantity column
+            if (editColIndex == 1 && /^(\d+)$/.test(editTd.text()) == false) {
+              editTd.css("background-color", "red");
+              if (error == null) {
+                $("table").before("<p id=\"error\">Invalid item quantity entered. Value must be an integer.</p>");
+                error = $("#error");
+              }
+            }
+              
+            // Validate the Item Required Date column
+            else if (editColIndex == 2 && /^(([12]\d{3}\/(0[1-9]|1[0-2])\/(0[1-9]|[12]\d|3[01])))$/.test(editTd.text()) == false) {
+              editTd.css("background-color", "red");
+              if (error == null) {
+                $("table").before("<p id=\"error\">Invalid item required date entered. Value must be a valid date of the form 'YYYY/MM/DD'.</p>");
+                error = $("#error");
+              }
+            }
+              
+            // Everything is valid, stop editing 
+            else {
+              editTd.css("background-color", "transparent");
+              editTd.attr("contentEditable","false");
+              $("#error").remove();
+              error = null;
+              editRowIndex = null;
+            }
+          }
+        });
+          
+        // Add an empty row
+        $("#addBtn").click(function(){
+          $("table").append("<tr><td></td><td></td><td></td><td class = \"ignore\"><a href=\"#\" class=\"delBtn btn btn-secondary\">X</a></td></tr>");
+        });
+          
+        // Delete selected row
+        $("table").on("click", ".delBtn", function(){
+          var row = $(this).parent().parent();
+          if (editRowIndex != null && editRowIndex == row.index()) {
+            editRowIndex = null;
+			error = null;
+            $("#error").remove();
+          }
+          row.remove();
+        });
+      });
+    </script>
+  </body>
+</html>

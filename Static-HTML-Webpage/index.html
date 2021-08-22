@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <!-- Using Google Chrome -->
+    
+    <!-- Event/Effect Information
+        CLICK:
+            HIDE:
+                CLICK Button (#hide): HIDE Contact form (form)
+            SHOW:
+                CLICK Button (#show): SHOW Contact form (form)
+            TOGGLE HIDE/SHOW:
+                CLICK Button (#toggle): TOGGLE Navigation bar (#navbar)
+
+        DBLCLICK:
+            FADE IN:
+                DBLCLICK Text under image map (#fadeIn): FADEIN Link for image (#p1)
+            FADE OUT:
+                DBLCLICK Text under image map (#fadeOut): FADEOUT Link for image (#p1)
+            FADE TO:
+                DBLCLICK Page titles (.t1): FADETO Page title that was double clicked (this)
+            FADE TOGGLE:
+                DBLCLICK Text above image map (#fadeToggle): FADETOGGLE Image map (#image)
+
+        MOUSEENTER:
+            ANIMATE:
+                MOUSEENTER Name (#name): ANIMATE Name where mouse was entered (this)
+
+        MOUSELEAVE:
+            STOP:
+                MOUSEENTER Name(#name): STOP Name where mouse left (this)
+
+        KEYPRESS:
+            CHAIN FADE:
+                KEYPRESS Comments box (#chainFade): CHAINFADE Thanks message (#thanks)
+
+        KEYDOWN:
+            CHAIN ANIMATE:
+                KEYDOWN Form inputs (.chainAnimate): CHAINANIMATE Form titles (.t2)
+    -->
+    
+	<head>
+		<title>Initial Home Page</title>
+        
+        <!-- For jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+    	<!-- External style sheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+            <h1 id="name">Your Name</h1>
+        </header>
+		<nav>
+            <h5 id="navbar">Interests | 
+                Education History | 
+                Areas of Expertise | 
+                Courses Taken | 
+                Contact Me Form
+            </h5>
+            <div class="centerButton">
+                <button id="toggle">Toggle Navigation Bar</button>
+            </div>
+        </nav>
+        <br>
+        
+        <article>
+            <!-- Image map showing "interests" -->
+            <h3 class="t1">INTERESTS</h3>
+            <p>Click the four corners of the image below to learn more!</p>
+            <p id="fadeToggle">Double click me to fade toggle the image below!</p>
+            <img id="image" class="interests" src="https://images.pexels.com/photos/4065909/pexels-photo-4065909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="464" height="696" alt="Interests" usemap="#interestsmap">
+
+            <map name="interestsmap">
+            <area shape="rect" coords="0,0,232,348" alt="Animals" href="https://en.m.wikipedia.org/wiki/Animal">
+            <area shape="rect" coords="0,348,232,696" alt="Traveling" href="http://en.wikipedia.org/wiki/Travel">
+            <area shape="rect" coords="232,0,464,348" alt="Reading" href="http://en.wikipedia.org/wiki/Reading">
+            <area shape="rect" coords="232,348,464,696" alt="Film" href="http://en.wikipedia.org/wiki/Film">
+            </map>
+            <p id="fadeIn">Double click me to fade in the link for this image!</p>
+            <p id="fadeOut">Double click me to fade out the link for this image!</p>
+            <p id="p1" class="interests">
+                Link to image: <a id="link" href="https://www.pexels.com/photo/person-holding-white-ceramic-mug-with-black-coffee-4065909/">Here</a>
+            </p>
+        </article>
+        <br>
+        
+        <section>
+            <!-- Education history in an unordered list -->
+            <h3 class="t1">EDUCATION HISTORY</h3>
+            <ul>
+                <li>M.S. in Computer Science</li>
+                <li>B.S. in Computer Science</li>
+            </ul>
+        </section>
+        <br>
+        
+        <section>
+            <!-- Publications/certifications/areas of expertise in ordered list -->
+            <h3 class="t1">AREAS OF EXPERTISE</h3>
+            <ol>
+                <li>Computer Science</li>
+                <li>Data Science</li>
+            </ol>
+        </section>
+        <br>
+        
+        <section>
+            <!-- Courses taken in a table -->
+            <h3 class="t1">COURSES TAKEN</h3>
+            <table>
+                <tr id="row1">
+                    <th>Course Name</th>
+                    <th class="center">Semester</th>
+                    <th class="center">Year</th>
+                </tr>
+                <tr>
+                    <td>Example Course 1</td>
+                    <td class="center">Fall</td>
+                    <td class="center">2019</td>
+                </tr>
+                <tr>
+                    <td>Example Course 2</td>
+                    <td class="center">Fall</td>
+                    <td class="center">2019</td>
+                </tr>
+                <tr>
+                    <td>Example Course 3</td>
+                    <td class="center">Fall</td>
+                    <td class="center">2019</td>
+                </tr>
+            </table>
+        </section>
+        <br><br>
+        
+        <footer>
+            <!-- Contact me form -->
+            <button id="hide">Hide Contact Me Form</button>
+            <button id="show">Show Contact Me Form</button>
+            <form>
+           		<h3 class="t1">CONTACT ME FORM</h3>
+               	<fieldset>
+                	<p class="t2">PERSONAL INFORMATION:</p>
+                    <p>
+                        <!-- Text input box -->
+                        Enter your name:
+                        <br><input class="chainAnimate" type="text" />
+                        
+                        <!-- Number input box -->
+                        <!-- Two HTML5 input control/validation elements -->
+                        <br><br>Enter your age:
+                        <br><input class="chainAnimate" type="number" min="0" max="130" />
+                 	</p>
+           		</fieldset>
+                    
+                <fieldset>
+                    <p class="t2">CONTACT INFORMATION:</p>
+                    <p>
+                        <!-- Email input box -->
+                        Enter your email address:
+                        <br><input class="chainAnimate" type="email" />
+                        
+                        <!-- Text input box -->
+                        <!-- Two HTML5 input control/validation elements -->
+                        <br><br>Enter your phone number:
+                        <br><input class="chainAnimate" type="text" minlength="9" maxlength="15" />
+                        
+                        <!-- Text input box -->
+                        <br><br>Enter your home address:
+                        <br><input class="chainAnimate" type="text" />
+
+                        <!-- Radio buttons -->
+                        <br><br>Identify your preferred method of contact:
+                        <br><input type="radio" name="prefer" />Email address
+                        <br><input type="radio" name="prefer" />Phone number
+                        <br><input type="radio" name="prefer" />Home address
+                    </p>
+                </fieldset>
+
+				<fieldset>
+                    <p class="t2">OTHER INFORMATION:</p>
+                	<p>
+                        <!-- Text input box -->
+                        <!-- One HTML5 input control/validation elements -->
+                        Leave any comments below:
+                        <br><input id="chainFade" type="text" maxlength="200" />
+                        
+                        <!-- Checkbox -->
+                        <br><br><input type="checkbox" />I would like to be contacted!
+                    </p>
+				</fieldset>
+                <p id="thanks">Thank you!</p>
+                    
+                <!-- Reset button -->
+                <input type="reset" />
+           	</form>
+        </footer>
+        <script>
+            $(document).ready(function(){
+                $("#hide").click(function(){
+                    $("form").hide();
+                });
+                $("#show").click(function(){
+                    $("form").show();
+                });
+                $("#toggle").click(function(){
+                    $("#navbar").toggle();
+                });
+
+
+                $("#fadeIn").dblclick(function(){
+                    $("#p1").fadeIn();
+                });
+                $("#fadeOut").dblclick(function(){
+                    $("#p1").fadeOut();
+                });
+                $(".t1").dblclick(function(){
+                    $(this).fadeTo("slow", 0.5);
+                });
+                $("#fadeToggle").dblclick(function(){
+                    $("#image").fadeToggle();
+                });
+
+
+                $("#name").mouseenter(function(){
+                    $(this).animate(
+                        {fontSize: '500%'}, function() {alert("Done!");}
+                    );
+                });
+
+
+                $("#name").mouseleave(function(){
+                    $(this).stop(true, true);
+                });
+
+
+                $("#chainFade").keypress(function(){
+                    $("#thanks").fadeOut("slow").fadeIn("slow").fadeTo("slow", 0.8);
+                });
+
+
+                $(".chainAnimate").keydown(function(){
+                    $(".t2").animate({fontSize: '110%'}).animate({opacity: '0.1'}).animate({opacity: '1'});
+                });
+            });
+        </script>
+	</body>
+</html>

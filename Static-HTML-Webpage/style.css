@@ -1,0 +1,65 @@
+/*Three class based style selectors*/
+.t1
+{
+    font-family: Arial Narrow, sans-serif;
+    color: blue;
+}
+
+.t2
+{
+    font-style: italic;
+}
+
+.centerButton
+{
+    text-align:center;
+}
+
+
+/*Four ID based style selectors*/
+#name
+{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+#navbar
+{
+    text-align: center;
+    color: gray;
+}
+
+#link
+{
+    font-style: italic;
+    color: gray;
+}
+
+#row1
+{
+    font-size:115%
+}
+
+
+/*Two class + ID combination based selectors*/
+#image.interests
+{
+    border-radius: 8px;
+}
+
+#p1.interests
+{
+    font-size: 75%;
+}
+
+
+/*Two descendant based selectors*/
+form .t1
+{
+    color: purple;
+}
+
+table .center
+{
+    text-align:center;
+}
